@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+<title>가격비교 웹 사이트</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/styles.css">
+<link href="https://fonts.googleapis.com/earlyaccess/notosanskr.css" rel="stylesheet">
+<style>
+h1{
+  color: white;
+  font-style: normal;
+  font-size: 45px;
+  text-align: center;
+  border-bottom:1px solid white;
+  margin: 0;
+  padding: 20px;
+}
+input{
+  font-size: 16px;
+  width: 300px;
+  padding: 10px;
+  float: left;
+}
+.box{
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-150px;
+    margin-top:-150px;
+}
+.Search{
+  position:absolute;
+  top:50%;
+  right:50%;
+  margin-top:-150px;
+  margin-right:-210px;
+}
+.text-field{
+  position:absolute;
+  top:15%;
+}
+.text-field2{
+  position:absolute;
+  top:20%;
+}
+.submit-btn{
+  position:absolute;
+  top:25%;
+}
+a{
+  position:absolute;
+  top:30%;
+}
+</style>
+</head>
+<body background="C:\Users\82106\Desktop\Front-end\바다.jpg">
+<h1>가격 비교 웹 사이트</h1>
+<div>
+  <input type="text" class="box" placeholder="검색어를 입력해주세요">
+  <button class="Search">검색</button>
+</div>
+
+<div class="login-form">
+   <form>
+     <input type="text" name="email" class="text-field" placeholder="아이디">
+     <input type="password" name="password" class="text-field2" placeholder="비밀번호">
+     <input type="submit" value="로그인" class="submit-btn">
+   </form>
+   <div class="links">
+     <a href="#">아이디, 비밀번호를 잊어버리셨나요?</a>
+   </div>
+ </div>
+</body>
+</html>
